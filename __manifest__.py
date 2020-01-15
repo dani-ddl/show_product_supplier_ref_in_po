@@ -16,10 +16,12 @@
     'website': 'http://www.xtendoo.com',
     'category': 'Extra Tools',
     'depends': [
-        'base'
+        'base',
+        'purchase'
     ],
     'license': 'AGPL-3',
     'data': [
+        'views/purchase_order_form_show_suppler_ref.xml',
     ],
     'demo': [],
     'installable': True,
